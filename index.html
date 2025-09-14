@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/output.css">
+    <title>Document</title>
+</head>
+<body class="bg-black text-white">
+    <video src="src/assets/images/welcome.mp4" autoplay loop muted
+    class="absolute -z-10 object-cover w-full h-screen"></video>
+    
+    <main class="container mx-auto px-4">
+        <header class="flex items-center justify-between pt-5 text-white">
+            <h1 class="text-xl font-bold p-2 bg-black/50 backdrop-blur-md rounded">BUSY BAR</h1>
+            <nav class="p-2 bg-black/50 backdrop-blur-md rounded">
+                <ul class="flex gap-5">
+                    <li><a href="#" class="hover:text-orange-300 transition duration-300 underline">Boutique</a></li>
+                    <li><a href="#" class="hover:text-orange-300 transition duration-300 underline">Téléchargement</a></li>
+                    <li><a href="#" class="hover:text-orange-300 transition duration-300 underline">Blog</a></li>
+                </ul>
+            </nav>
+            <img src="src/assets/images/badge.svg" alt="badge" class="w-56 grayscale hover:grayscale-0 transition duration-300">
+        </header>
+
+        <section class="h-screen flex flex-col justify-center items-center text-center max-w-[550px] mx-auto text-xl">
+            <div class="bg-black/50 p-6 rounded-lg backdrop-blur-md text-white">
+                <p>
+                    <span class="font-bold text-xl">BUSY CAR</span> est un dispositif multi-outil de productivité avec un écran LED pixelisé. Minuteur de concentration avec fonction de blocage des distractions sur votre pc et votre téléphone. Entièrement personnalisable, open-source et prêt pour la maison connectée.
+                </p>
+            </div>
+            <button 
+                class="bg-orange-300 text-black py-4 px-14 rounded-lg hover:bg-black hover:text-white transition duration-300 cursor-pointer mt-10"
+            >
+                Acheter
+            </button>
+        </section>
+    </main>
+</body>
+</html>
